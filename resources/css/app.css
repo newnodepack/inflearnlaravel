@@ -1,0 +1,95 @@
+
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;vertical-align: middle;font-size: 12px;overflow: hidden;box-sizing: content-box;
+z-index: 0;width: auto;height: auto;}
+
+html{width: 100%;overflow-y: scroll;}
+body{width: 100%;background-color: darkslateblue;}
+i{font-size: 1em;color: inherit;display: inline-block;padding: 0px 3px;text-align: center;}
+div,header,footer,form{font-size: 0px;}
+.left_side{width: 50%;display: inline-block;text-align: left;}
+.right_side{width: 50%;display: inline-block;text-align: right;}
+input{box-sizing: border-box;}
+input:focus{outline: none;}
+button{cursor: pointer;}
+section{width: 100%;display: block;}
+textarea:focus{outline: none;}
+
+/* 헤더 영역 */
+header{width: 100%;display: block;border-bottom: 1px solid #f2f2f2;}
+.wrap{width: 100%;max-width: 1440px;display: block;margin: 0px auto;}
+.site_main{font-size: 32px;padding: 10px 0px;display: block;width: 100%;color:#fff;}
+.search_box{width: 40%;display: inline-block;height: 32px;position: relative;background-color: #fff;border-radius: 3px;border:1px solid #ccc;}
+.search_box > input{width: 80%;height: 100%;font-size: 16px;text-indent: 3px;display: inline-block;border:none;}
+.search_box_icon{font-size: 24px;color: #aaa;display: inline-block;width: 20%;box-sizing: border-box;margin: 0px;}
+.head_button{width: 100%;}
+.login_head_btn{width: 80px;border-radius: 5px;display: inline-block;background-color: gold;text-align: center;
+    padding:10px 20px;font-size: 16px;margin-right: 15px;border:none;}
+.register_head_btn{width: 80px;border-radius: 5px;display: inline-block;background-color: navajowhite;text-align: center;
+    padding:10px 20px;font-size: 16px;border:none;}
+
+.wrap_2{width: 100%;max-width: 960px;display: block;margin: 0px auto;}
+.left_side_1{display: inline-block;width: 60%;box-sizing: border-box; padding: 50px 20px 50px 0px;vertical-align: top;border-right:1px solid #f2f2f2;}
+.right_side_1{display: inline-block;width: 40%;box-sizing: border-box;padding: 50px 0px 50px 20px;vertical-align: top;}
+
+/* 검색 창 영역 */
+.search_result{background-color: #fff;width: 300px;position: absolute;left: 14%;top: 6%;z-index: 4;
+border: 1px solid #aaa;border-radius: 5px;}
+.result_line{width: 100%;padding: 15px 8px;border-bottom: 1px solid #ccc;}
+.result_line > p{font-size: 12px;color: #666;text-align: left;width: 100%;}
+
+/* 회원가입 사이드 */
+.register_popup{width: 100%;height: 100%;background-color: rgba(0,0,0,0.4);z-index: 5;position: fixed;left: 0;top: 0;}
+.front_register{width: 100%;max-width: 720px;left: 50%;top: 50%;transform: translate(-50%,-50%);background-color: #fff;position: absolute;
+padding: 50px 20px;box-sizing: border-box;border-radius: 10px;text-align: center;z-index: 6;background-color: mediumslateblue;}
+.front_register_form{width: 100%;display: block;}
+.front_register_label{width: 100%;margin: 15px 0px;text-align-last: left;display: block;}
+.front_register_label > p{font-size: 16px;display: block;color: #f2f2f2;margin: 0px 0px 10px 0px;}
+.front_register_label > span{font-size: 16px;display: block;color: red;margin: 10px 0px 0px 0px;}
+.front_register_input{font-size: 16px;display: block;width: 100%;height: 32px;border:1px solid #ccc;}
+.submit_registration{margin: 15px 0px;width: 100%;border:none;text-align: center;padding: 15px 0px;color:mediumslateblue;background-color: #fff;
+border-radius: 5px;cursor: pointer;}
+
+/* 메인 사이드 */
+.contents{width: 100%;}
+.side_tab_layout{width: 100%;text-align: left;}
+.side_tab_box{width: 20%;display: inline-block;padding: 10px 0px 0px 0px;margin: 0;cursor: pointer;}
+.side_tab_box > h2{font-size: 24px;color: #fff;width: 100%;text-align: center;display: block;}
+.side_tab_box > h2 > i{font-size: 19px;}
+.side_tab_box:hover{background-color: rgba(0, 0, 0, 0.4);}
+.side_tab_underline{width: 100%;height: 1px;background-color: #f2f2f2;display: block;margin: 15px 0px 0px 0px;}
+#side_tab_box_last{width: 40%;font-size: 22px;color: #fff;text-align: right;display: inline-block;padding: 10px 0px 0px 0px;margin: 0;cursor: pointer;}
+#side_tab_box_last > i{opacity: 0.6;}
+#side_tab_box_last > i:hover{opacity: 1;transition: all ease-in-out 0.4s;}
+.side_tab_container{width: 100%;font-size: 24px;color: #fff;}
+.image_live_session{width: auto; max-width: 50%;display: block;margin: 10px 0px;border-radius: 5px;}
+.image_live_session > img{width: 100%;display: block;}
+
+.upload_post_box{width: 100%;border-radius: 10px;background-color: darkslategray;box-sizing: border-box;padding: 20px 15px;margin: 50px 0px 20px 0px;}
+.upload_post_box > h3{font-size: 16px;font-weight: normal;}
+#write_post{display: block;width: 100%;height: 100px;margin: 15px auto;border: none;}
+.submit_btn_in{padding: 8px 20px;text-align: center;font-size: 16px;color: #fff;border:none;background-color: darkseagreen;border-radius: 5px;}
+
+.post_layout_block{width: 100%;display: block;margin: 30px 0px;}
+.post_user_profile{width: 10%;display: inline-block;vertical-align: top;}
+.post_user_thumbnail{color: #fff;font-size: 48px;display: block;text-align: center;}
+.post_user_contents{width: 85%;margin: 0px 0px 0px 5%;display: inline-block;vertical-align: top;border-radius: 10px;background-color: #fff;
+height: 400px;}
+.post_image_show{width: 100%;background-color: #333;height: 280px;display: block;position: relative;}
+.post_image_show > img{height: 100%;display: block;position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);}
+.post_content_write{width: 100%;display: block;box-sizing: border-box;padding: 20px 15px;max-height: 120px;}
+.post_content_write > p{font-size: 12px;color: #333;}
+
+/* 서브 사이드 */
+.userblock{width: 100%;border-radius: 10px;background-color: mediumorchid;}
+.userblock > h3{font-size: 16px;color: #fff;width: 90%;margin: 15px auto;display: block;}
+.userblock_list{width: 100%;display: block;border-top: 1px solid #f2f2f2;border-bottom: 1px solid #f2f2f2;}
+.userblock_list > li{width: 100%;display: block;padding: 15px 0px;font-size: 0px;}
+.user_img{width: 16%;margin: 0px 2%;font-size: 32px;color: #aaa;display: inline-block;text-align: center;}
+.userblock_title{font-size: 16px;color: #fff;display: inline-block;width: 80%;}
+.userblock_title > h4{font-size: 24px;}
+.userblock_title > p{font-size: 16px;color: mediumslateblue;}
+.more_users{width: 100%;padding: 15px 0px;text-align: center;color:mediumslateblue;font-weight: bold; font-size: 12px;display: block;text-decoration: underline;}
+.sponser_block{width: 100%;margin: 30px 0px;}
+.sponser_block > h3{color: #fff;font-size: 24px;text-transform: uppercase;}
+.sponser_list{padding: 15px 0px;border-top: 1px solid #f2f2f2;margin: 15px 0px;}
+.sponser_list > span{color: #fff;font-size: 16px;}
